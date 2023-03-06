@@ -1,7 +1,7 @@
 App(
-    appid="hid_usb",
+    appid="RemoteUSB",
     name="Remote",
-    apptype=FlipperAppType.PLUGIN,
+    apptype=FlipperAppType.EXTERNAL,
     entry_point="hid_usb_app",
     stack_size=1 * 1024,
     fap_category="USB",
@@ -10,11 +10,10 @@ App(
     fap_icon_assets_symbol="hid",
 )
 
-
 App(
-    appid="hid_ble",
+    appid="RemoteBT",
     name="Remote",
-    apptype=FlipperAppType.PLUGIN,
+    apptype=FlipperAppType.EXTERNAL,
     entry_point="hid_ble_app",
     stack_size=1 * 1024,
     fap_category="Bluetooth",
