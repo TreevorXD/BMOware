@@ -14,17 +14,3 @@ Max butthurt: 5
 Min level: 1
 Max level: 100
 Weight: 3
-
-Name: Axolotl
-Min butthurt: 0
-Max butthurt: 5
-Min level: 1
-Max level: 100
-Weight: 8
-
-Name: Haseo_Mario_128x64
-Min butthurt: 0
-Max butthurt: 5
-Min level: 1
-Max level: 100
-Weight: 8
