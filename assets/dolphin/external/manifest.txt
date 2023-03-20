@@ -12,5 +12,26 @@ Name: BmoDance
 Min butthurt: 0
 Max butthurt: 5
 Min level: 1
-Max level: 100
+Max level: 30
 Weight: 3
+
+Name: BmoFace
+Min butthurt: 0
+Max butthurt: 14
+Min level: 1
+Max level: 30
+Weight: 8
+
+Name: BmoShocked
+Min butthurt: 0
+Max butthurt: 14
+Min level: 1
+Max level: 30
+Weight: 8
+
+Name: BmoShocked1
+Min butthurt: 0
+Max butthurt: 14
+Min level: 1
+Max level: 30
+Weight: 8
