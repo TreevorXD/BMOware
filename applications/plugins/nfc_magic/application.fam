@@ -1,6 +1,6 @@
 App(
-    appid="NFC_Magic",
-    name="NFC Magic",
+    appid="nfc_magic",
+    name="Nfc Magic",
     apptype=FlipperAppType.EXTERNAL,
     targets=["f7"],
     entry_point="nfc_magic_app",
@@ -18,5 +18,4 @@ App(
         ),
     ],
     fap_icon_assets="assets",
-    fap_icon_assets_symbol="nfc_magic",
 )

@@ -20,10 +20,8 @@
 #include "views/hid_keyboard.h"
 #include "views/hid_media.h"
 #include "views/hid_mouse.h"
-#include "views/hid_mouse_clicker.h"
 #include "views/hid_mouse_jiggler.h"
 #include "views/hid_tiktok.h"
-#include "views/hid_camera.h"
 
 #define HID_BT_KEYS_STORAGE_NAME ".bt_hid.keys"
 
@@ -45,10 +43,8 @@ struct Hid {
     HidKeyboard* hid_keyboard;
     HidMedia* hid_media;
     HidMouse* hid_mouse;
-    HidMouseClicker* hid_mouse_clicker;
     HidMouseJiggler* hid_mouse_jiggler;
     HidTikTok* hid_tiktok;
-    HidCamera* hid_camera;
 
     HidTransport transport;
     uint32_t view_id;
